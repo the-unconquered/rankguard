@@ -1,0 +1,13 @@
+model,condition,metric,paired_prompts,pg_only_wins,signbit_only_wins,mcnemar_exact_p
+Mistral-7B,shuffle_05,choice_correct,50,2,1,1.0
+Mistral-7B,shuffle_05,generation_valid,50,0,0,1.0
+Mistral-7B,shuffle_05,generation_correct,50,1,1,1.0
+Mistral-7B,lora_medium,choice_correct,50,2,1,1.0
+Mistral-7B,lora_medium,generation_valid,50,13,0,0.000244140625
+Mistral-7B,lora_medium,generation_correct,50,13,2,0.00738525390625
+Falcon-7B,shuffle_05,choice_correct,30,0,1,1.0
+Falcon-7B,shuffle_05,generation_valid,30,2,0,0.5
+Falcon-7B,shuffle_05,generation_correct,30,0,2,0.5
+Falcon-7B,lora_medium,choice_correct,30,0,0,1.0
+Falcon-7B,lora_medium,generation_valid,30,1,0,1.0
+Falcon-7B,lora_medium,generation_correct,30,1,0,1.0

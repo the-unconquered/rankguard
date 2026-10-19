@@ -1,0 +1,53 @@
+{
+  "controlled": {
+    "trials": 30,
+    "layers_per_trial": 4,
+    "tensor_shapes": [
+      [
+        768,
+        2304
+      ],
+      [
+        768,
+        2304
+      ],
+      [
+        768,
+        2304
+      ],
+      [
+        768,
+        2304
+      ]
+    ],
+    "schemes": {
+      "legacy_fingerprint": {
+        "public_manifest_contains_master_key_rate": 0.0,
+        "public_manifest_raw_fingerprint_entry_count_mean": 0.0,
+        "unwatermarked_base_verified_rate": 1.0,
+        "unrelated_model_verified_rate": 0.0,
+        "wrong_key_verified_rate": 0.0,
+        "tampered_manifest_verified_rate": 0.0,
+        "leaked_key_targeted_overwrite_verified_rate": 0.0
+      },
+      "rankguard": {
+        "public_manifest_contains_master_key_rate": 0.0,
+        "public_manifest_raw_fingerprint_entry_count_mean": 0.0,
+        "unwatermarked_base_verified_rate": 0.0,
+        "unrelated_model_verified_rate": 0.0,
+        "wrong_key_verified_rate": 0.0,
+        "tampered_manifest_verified_rate": 0.0,
+        "leaked_key_targeted_overwrite_verified_rate": 0.0
+      }
+    }
+  },
+  "artifact_audit": {
+    "files": 62,
+    "plaintext_key_files": 62,
+    "predictable_key_files": 62,
+    "dictionary_recovered_files": 62,
+    "unique_plaintext_key_hashes": 12,
+    "total_metadata_mb": 50.728589,
+    "median_metadata_kb": 929.957
+  }
+}
